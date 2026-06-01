@@ -31,6 +31,12 @@ body {
     color: var(--light);
     line-height: 1.6;
     overflow-x: hidden;
+    width: 100%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
 
 /* Particles */
@@ -50,6 +56,7 @@ body {
 }
 
 .container {
+    width: 100%;
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 2rem;
@@ -831,6 +838,7 @@ section {
     overflow: hidden;
     box-shadow: 0 15px 35px rgba(0,0,0,0.8);
     border: 1px solid var(--glass-border);
+    min-width: 0;
 }
 .menu-banner-img {
     width: 100%;
